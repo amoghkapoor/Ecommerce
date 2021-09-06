@@ -1,0 +1,44 @@
+.navbar-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	align-items: center;
+	transition: all 0.3s ease;
+	z-index: 10;
+
+	.logo {
+		img {
+			height: 50px;
+			width: auto;
+		}
+	}
+
+	.nav-categories {
+		font-size: 1.15rem;
+
+		a {
+			margin-left: 3rem;
+
+			&:hover {
+				color: rgb(77, 77, 77);
+			}
+		}
+	}
+}
+
+.scroll-down {
+	.navbar-container {
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.scroll-up {
+	.navbar-container {
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+	}
+}

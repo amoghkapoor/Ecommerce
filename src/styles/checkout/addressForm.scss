@@ -1,0 +1,57 @@
+.address-form {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	place-items: center;
+	padding-bottom: 2rem;
+
+	.address-form-input-container {
+		margin-bottom: 1.5rem;
+
+		.error-message-container {
+			margin-top: 0.25rem;
+			display: flex;
+			font-size: 0.9rem;
+			color: rgb(206, 93, 70);
+			.space {
+				margin-bottom: 1rem;
+			}
+		}
+	}
+}
+
+.address-form-heading {
+	padding-left: 2rem;
+	margin-bottom: 2rem;
+	font-size: 1.25rem;
+}
+
+.address-form-navigation {
+	margin-top: 1rem;
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	padding: 0 4rem;
+
+	.nav-btn {
+		padding: 0.5rem 1rem;
+		font-size: 1rem;
+		border-radius: 0.5rem;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		color: #fff;
+	}
+	.prev-btn {
+		background-color: transparent;
+		border: 1px solid #999;
+		color: #000;
+	}
+	.next-btn {
+		background-color: rgb(67, 80, 175);
+	}
+}
+
+.right-nav {
+	justify-content: flex-end;
+}

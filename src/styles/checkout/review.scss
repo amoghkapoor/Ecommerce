@@ -1,0 +1,48 @@
+.review-outer-container {
+	display: flex;
+	flex-direction: column;
+	padding: 0 4rem;
+
+	.review-heading {
+		font-size: 1.75rem;
+		margin-bottom: 2rem;
+	}
+
+	.review-inner-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+		.product-info {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-bottom: 2rem;
+
+			.product-name {
+				font-size: 1.1rem;
+				margin-bottom: 0.25rem;
+			}
+
+			.product-quantity {
+				color: #777;
+			}
+
+			.product-price {
+				font-size: 1.1rem;
+			}
+		}
+	}
+
+	.cart-subtotal {
+		display: flex;
+		flex-direction: column;
+		font-size: 1.1rem;
+
+		span {
+			font-size: 1.25rem;
+			font-weight: 500;
+			margin-bottom: 0.5rem;
+		}
+	}
+}
